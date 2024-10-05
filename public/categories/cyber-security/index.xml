@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cyber Security on DilzNotes</title>
+    <link>http://localhost:1313/categories/cyber-security/</link>
+    <description>Recent content in Cyber Security on DilzNotes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <managingEditor>untilspwn@gmail.com (aaidilz)</managingEditor>
+    <webMaster>untilspwn@gmail.com (aaidilz)</webMaster>
+    <copyright>© 2024 aaidilz</copyright>
+    <lastBuildDate>Sat, 24 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/cyber-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basic Website Reconnaissance</title>
+      <link>http://localhost:1313/contents/cyber-security/basic-website-reconnaissance/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      <author>untilspwn@gmail.com (aaidilz)</author>
+      <guid>http://localhost:1313/contents/cyber-security/basic-website-reconnaissance/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
