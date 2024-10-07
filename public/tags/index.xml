@@ -2,70 +2,90 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on DilzNotes</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://example.org/tags/</link>
     <description>Recent content in Tags on DilzNotes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
     <managingEditor>untilspwn@gmail.com (aaidilz)</managingEditor>
     <webMaster>untilspwn@gmail.com (aaidilz)</webMaster>
     <copyright>© 2024 aaidilz</copyright>
-    <lastBuildDate>Sun, 25 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Model</title>
+      <link>https://example.org/tags/model/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <author>untilspwn@gmail.com (aaidilz)</author>
+      <guid>https://example.org/tags/model/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>OSI</title>
+      <link>https://example.org/tags/osi/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <author>untilspwn@gmail.com (aaidilz)</author>
+      <guid>https://example.org/tags/osi/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Reconnaissance</title>
-      <link>http://localhost:1313/tags/reconnaissance/</link>
+      <link>https://example.org/tags/reconnaissance/</link>
       <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
       <author>untilspwn@gmail.com (aaidilz)</author>
-      <guid>http://localhost:1313/tags/reconnaissance/</guid>
+      <guid>https://example.org/tags/reconnaissance/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Security</title>
-      <link>http://localhost:1313/tags/security/</link>
+      <link>https://example.org/tags/security/</link>
       <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
       <author>untilspwn@gmail.com (aaidilz)</author>
-      <guid>http://localhost:1313/tags/security/</guid>
+      <guid>https://example.org/tags/security/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>MySQL</title>
-      <link>http://localhost:1313/tags/mysql/</link>
+      <link>https://example.org/tags/mysql/</link>
       <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
       <author>untilspwn@gmail.com (aaidilz)</author>
-      <guid>http://localhost:1313/tags/mysql/</guid>
+      <guid>https://example.org/tags/mysql/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>PHP</title>
-      <link>http://localhost:1313/tags/php/</link>
+      <link>https://example.org/tags/php/</link>
       <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
       <author>untilspwn@gmail.com (aaidilz)</author>
-      <guid>http://localhost:1313/tags/php/</guid>
+      <guid>https://example.org/tags/php/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>PHPMyAdmin</title>
-      <link>http://localhost:1313/tags/phpmyadmin/</link>
+      <link>https://example.org/tags/phpmyadmin/</link>
       <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
       <author>untilspwn@gmail.com (aaidilz)</author>
-      <guid>http://localhost:1313/tags/phpmyadmin/</guid>
+      <guid>https://example.org/tags/phpmyadmin/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ubuntu</title>
-      <link>http://localhost:1313/tags/ubuntu/</link>
+      <link>https://example.org/tags/ubuntu/</link>
       <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
       <author>untilspwn@gmail.com (aaidilz)</author>
-      <guid>http://localhost:1313/tags/ubuntu/</guid>
+      <guid>https://example.org/tags/ubuntu/</guid>
       <description></description>
       
     </item>

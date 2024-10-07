@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contents on DilzNotes</title>
-    <link>http://localhost:1313/contents/</link>
+    <link>https://example.org/contents/</link>
     <description>Recent content in Contents on DilzNotes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
     <managingEditor>untilspwn@gmail.com (aaidilz)</managingEditor>
     <webMaster>untilspwn@gmail.com (aaidilz)</webMaster>
     <copyright>© 2024 aaidilz</copyright>
-    <lastBuildDate>Sun, 25 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/contents/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/contents/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
