@@ -1,6 +1,8 @@
 ---
-Title: Bagaimana cara SNI bekerja?
-Date: 2024-10-09
+title: Bagaimana cara SNI bekerja?
+date: 2024-10-09
+categories: [Infrastructure]
+tags: [Network, Security]
 ---
 
 # Bagaimana cara SNI bekerja?
