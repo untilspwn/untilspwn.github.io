@@ -4,18 +4,30 @@
 
   <url>
     <loc>https://example.org/</loc>
-    <lastmod>2024-10-09T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://example.org/contents/infrastructure/bagaimana-sni-bekerja/</loc>
-    <lastmod>2024-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://example.org/contents/</loc>
+    <lastmod>2024-10-27T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://example.org/contents/development/</loc>
+    <lastmod>2024-10-27T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://example.org/contents/development/linux-privilage/</loc>
+    <lastmod>2024-10-27T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://example.org/contents/infrastructure/bagaimana-sni-bekerja/</loc>
     <lastmod>2024-10-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -58,12 +70,6 @@
   </url>
   <url>
     <loc>https://example.org/contents/development/configure-phpmyadmin/</loc>
-    <lastmod>2024-08-24T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://example.org/contents/development/</loc>
     <lastmod>2024-08-24T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
