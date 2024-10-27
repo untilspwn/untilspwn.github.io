@@ -73,8 +73,10 @@ Dengan informasi ini, kita mendapatkan versi yang di tampilkan oleh target, sehi
 
 Dengan melakukan port scanning dan service enumeration, penyerang dapat mengumpulkan informasi yang cukup untuk melanjutkan ke tahap selanjutnya dalam proses *penetration testing*.
 
+{{< alert >}}
 > **Catatan**: Pada proses Scanning dan Enumeration, ada kondisi dimana terdapat kondisi yang tidak diinginkan seperti *false positive* atau *false negative*. Oleh karena itu, perlu dilakukan validasi lebih lanjut untuk memastikan hasil scanning yang akurat.
-{: .prompt-info }
+{{< /alert >}}
+
 
 Demikianlah penjelasan singkat tentang Port Scanning dan Service Enumeration. Semoga bermanfaat!
 dan tetap explore dan belajar lebih lanjut.

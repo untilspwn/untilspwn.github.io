@@ -2,7 +2,7 @@
 title: Configure Fresh MySQL Server Install on Ubuntu
 date: 2024-08-24
 categories: [Web Development]
-tags: [MySQL, Ubuntu]
+tags: [MySQL, Linux]
 ---
 
 MySQL adalah database server yang populer digunakan untuk menyimpan data.

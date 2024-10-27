@@ -41,7 +41,7 @@ error:
 footer:
   dark_appearance: "Beralih ke tampilan gelap"
   light_appearance: "Beralih ke tampilan terang"
-  powered_by: "Dipersembahkan oleh {{ .Hugo }} &amp; {{ .Theme }}"
+  powered_by: "Made with ❤️"
 
 list:
   externalurl_title: "Tautan ke situs eksternal"

@@ -21,11 +21,11 @@
     </item>
     
     <item>
-      <title>OSI</title>
-      <link>https://example.org/tags/osi/</link>
+      <title>Network</title>
+      <link>https://example.org/tags/network/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
       <author>untilspwn@gmail.com (aaidilz)</author>
-      <guid>https://example.org/tags/osi/</guid>
+      <guid>https://example.org/tags/network/</guid>
       <description></description>
       
     </item>
@@ -46,6 +46,16 @@
       <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
       <author>untilspwn@gmail.com (aaidilz)</author>
       <guid>https://example.org/tags/security/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://example.org/tags/linux/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      <author>untilspwn@gmail.com (aaidilz)</author>
+      <guid>https://example.org/tags/linux/</guid>
       <description></description>
       
     </item>
@@ -76,16 +86,6 @@
       <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
       <author>untilspwn@gmail.com (aaidilz)</author>
       <guid>https://example.org/tags/phpmyadmin/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Ubuntu</title>
-      <link>https://example.org/tags/ubuntu/</link>
-      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
-      <author>untilspwn@gmail.com (aaidilz)</author>
-      <guid>https://example.org/tags/ubuntu/</guid>
       <description></description>
       
     </item>

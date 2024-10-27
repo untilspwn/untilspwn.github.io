@@ -11,11 +11,11 @@
     <copyright>© 2024 aaidilz</copyright>
     <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cyber Security</title>
-      <link>https://example.org/categories/cyber-security/</link>
+      <title>Infrastructure</title>
+      <link>https://example.org/categories/infrastructure/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
       <author>untilspwn@gmail.com (aaidilz)</author>
-      <guid>https://example.org/categories/cyber-security/</guid>
+      <guid>https://example.org/categories/infrastructure/</guid>
       <description></description>
       
     </item>
@@ -26,6 +26,16 @@
       <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
       <author>untilspwn@gmail.com (aaidilz)</author>
       <guid>https://example.org/categories/pentesting/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Cyber Security</title>
+      <link>https://example.org/categories/cyber-security/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      <author>untilspwn@gmail.com (aaidilz)</author>
+      <guid>https://example.org/categories/cyber-security/</guid>
       <description></description>
       
     </item>

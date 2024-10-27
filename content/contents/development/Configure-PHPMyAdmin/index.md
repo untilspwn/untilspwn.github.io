@@ -2,7 +2,7 @@
 title: Configure PHPMyAdmin on Ubuntu
 date: 2024-08-24
 categories: [Web Development]
-tags: [PHP, MySQL, PHPMyAdmin, Ubuntu]
+tags: [PHP, MySQL, PHPMyAdmin, Linux]
 ---
 
 PHPMyAdmin adalah aplikasi web yang digunakan untuk mengelola database MySQL. PHPMyAdmin memungkinkan pengguna untuk membuat, mengedit, dan menghapus database, tabel, dan field. PHPMyAdmin juga memungkinkan pengguna untuk menjalankan query SQL dan mengelola pengguna dan hak akses.

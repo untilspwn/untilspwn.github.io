@@ -1,8 +1,8 @@
 ---
 title: OSI Layer Model
 date: 2024-10-07
-categories: [Cyber Security]
-tags: [OSI, Model]
+categories: [Infrastructure]
+tags: [Network, Model]
 ---
 
 # OSI Layer Model

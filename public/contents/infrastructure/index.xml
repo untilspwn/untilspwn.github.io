@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Infrastructure on DilzNotes</title>
+    <link>https://example.org/contents/infrastructure/</link>
+    <description>Recent content in Infrastructure on DilzNotes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <managingEditor>untilspwn@gmail.com (aaidilz)</managingEditor>
+    <webMaster>untilspwn@gmail.com (aaidilz)</webMaster>
+    <copyright>© 2024 aaidilz</copyright>
+    <lastBuildDate>Wed, 09 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/contents/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bagaimana cara SNI bekerja?</title>
+      <link>https://example.org/contents/infrastructure/bagaimana-sni-bekerja/</link>
+      <pubDate>Wed, 09 Oct 2024 00:00:00 +0000</pubDate>
+      <author>untilspwn@gmail.com (aaidilz)</author>
+      <guid>https://example.org/contents/infrastructure/bagaimana-sni-bekerja/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>OSI Layer Model</title>
+      <link>https://example.org/contents/infrastructure/osi-layer-model/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <author>untilspwn@gmail.com (aaidilz)</author>
+      <guid>https://example.org/contents/infrastructure/osi-layer-model/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
