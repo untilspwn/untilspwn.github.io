@@ -4,19 +4,31 @@
 
   <url>
     <loc>https://example.org/</loc>
-    <lastmod>2024-10-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://example.org/contents/</loc>
-    <lastmod>2024-10-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://example.org/contents/development/</loc>
-    <lastmod>2024-10-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://example.org/contents/development/linux-symlink/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://example.org/contents/infrastructure/</loc>
+    <lastmod>2024-11-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -28,12 +40,6 @@
   </url>
   <url>
     <loc>https://example.org/contents/infrastructure/bagaimana-sni-bekerja/</loc>
-    <lastmod>2024-10-09T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://example.org/contents/infrastructure/</loc>
     <lastmod>2024-10-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

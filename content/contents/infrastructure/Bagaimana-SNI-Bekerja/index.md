@@ -23,6 +23,7 @@ sequenceDiagram
     Server->>Client: Encrypted data
 {{< /mermaid >}}
 
+> **Catatan**: Jika teks tidak terlihat dengan jelas, ganti tema situs web ke mode terang
 ## Cara Kerja SNI
 
 1. **Permintaan Klien**: Saat klien (misalnya, peramban web) memulai koneksi ke server, ia mengirimkan informasi SNI sebagai bagian dari *handshake* TLS. Informasi ini mencakup nama host (*hostname*) dari situs web yang ingin diakses.
