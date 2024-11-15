@@ -129,6 +129,29 @@
   <meta name="theme-color"/>
   
   
+  
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyBRkrk4dbiE9GUMjs9ky2J2-Yk8r19SKYk",
+      authDomain: "AIzaSyBRkrk4dbiE9GUMjs9ky2J2-Yk8r19SKYk",
+      projectId: "untilspwn-fbf3d",
+      storageBucket: "untilspwn-fbf3d.firebasestorage.app",
+      messagingSenderId: "107422885492",
+      appId: "1:107422885492:web:439014fb00cc37c94a1321",
+      measurementId: "G-YDDBB3YKTR"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
+  
+  
 </head>
 <body
   class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
@@ -638,10 +661,6 @@
 
       </div>
       
-      <div class="py-1 max-w-fit prose dark:prose-invert">
-        
-      </div>
-      
     </div>
   </a>
 
@@ -849,10 +868,6 @@
 
 
 
-      </div>
-      
-      <div class="py-1 max-w-fit prose dark:prose-invert">
-        
       </div>
       
     </div>
@@ -1072,10 +1087,6 @@
 
       </div>
       
-      <div class="py-1 max-w-fit prose dark:prose-invert">
-        
-      </div>
-      
     </div>
   </a>
 
@@ -1275,10 +1286,6 @@
 
 
 
-      </div>
-      
-      <div class="py-1 max-w-fit prose dark:prose-invert">
-        
       </div>
       
     </div>

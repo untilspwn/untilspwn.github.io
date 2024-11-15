@@ -89,7 +89,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
   showBreadcrumbs = true
-  showSummary = true
+  showSummary = false
   showViews = false
   showLikes = false
   showTableOfContents = true
@@ -125,13 +125,13 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   cardViewScreenWidth = false
 
 [firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
+  apiKey = "AIzaSyBRkrk4dbiE9GUMjs9ky2J2-Yk8r19SKYk"
+  authDomain = "untilspwn-fbf3d.firebaseapp.com"
+  projectId = "untilspwn-fbf3d"
+  storageBucket = "untilspwn-fbf3d.firebasestorage.app"
+  messagingSenderId = "107422885492"
+  appId = "1:107422885492:web:439014fb00cc37c94a1321"
+  measurementId = "G-YDDBB3YKTR"
 
 [fathomAnalytics]
   # site = "ABC12345"
