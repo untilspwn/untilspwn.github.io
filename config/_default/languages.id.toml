@@ -20,11 +20,11 @@ email = "untilspwn@gmail.com"
 image = "img/me.jpg"
 #   imageQuality = 96
   headline = "100% Human"
-  bio = "A little bit about you"
+  bio = "I'm a human, I swear."
 
 links = [
   { github = "https://github.com/aaidilz" },
-  { instagram = "https://instagram.com/untilspwn" },
+  { instagram = "https://instagram.com/aaidilz" },
 
 ]
 #   links = [

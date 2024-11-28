@@ -3,7 +3,7 @@ function css(name) {
 }
 
 mermaid.initialize({
-  theme: "base",
+  theme: "dark",
   themeVariables: {
     background: css("--color-neutral"),
     primaryColor: css("--color-primary-200"),

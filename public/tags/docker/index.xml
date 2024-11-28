@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on DilzNotes</title>
+    <link>https://example.org/tags/docker/</link>
+    <description>Recent content in Docker on DilzNotes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <managingEditor>untilspwn@gmail.com (aaidilz)</managingEditor>
+    <webMaster>untilspwn@gmail.com (aaidilz)</webMaster>
+    <copyright>© 2024 aaidilz</copyright>
+    <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kontenerisasi App dengan Docker</title>
+      <link>https://example.org/contents/development/docker-containerization/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <author>untilspwn@gmail.com (aaidilz)</author>
+      <guid>https://example.org/contents/development/docker-containerization/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
