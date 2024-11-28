@@ -26,6 +26,13 @@ sequenceDiagram
 
 Pada diagram di atas, kita dapat melihat bagaimana Docker bekerja. Pengguna membangun dengan perintah `docker build`. kemudian digunakan untuk membuat kontainer dengan perintah `docker run`. Ketika kontainer selesai berjalan, pengguna dapat menghentikan kontainer dengan perintah `docker stop` dan menghapusnya dengan perintah `docker rm`.
 
+## Instalasi Docker
+
+Untuk menginstalasi Docker, Anda dapat mengikuti langkah-langkah berikut:
+```bash
+# Debian/Ubuntu
+$ sudo apt update && sudo apt install docker.io
+```
 ## Studi Kasus
 
 Misalnya, pada kasus ini kita akan membuat kontainer dalam konteks CTF yang rentan terhadap `Shellshock` CVE-2014-6271.
