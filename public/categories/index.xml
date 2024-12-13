@@ -9,7 +9,17 @@
     <managingEditor>untilspwn@gmail.com (aaidilz)</managingEditor>
     <webMaster>untilspwn@gmail.com (aaidilz)</webMaster>
     <copyright>© 2024 aaidilz</copyright>
-    <lastBuildDate>Fri, 29 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Development</title>
+      <link>https://example.org/categories/web-development/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      <author>untilspwn@gmail.com (aaidilz)</author>
+      <guid>https://example.org/categories/web-development/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Pentesting</title>
       <link>https://example.org/categories/pentesting/</link>
@@ -56,16 +66,6 @@
       <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
       <author>untilspwn@gmail.com (aaidilz)</author>
       <guid>https://example.org/categories/cyber-security/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Web Development</title>
-      <link>https://example.org/categories/web-development/</link>
-      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
-      <author>untilspwn@gmail.com (aaidilz)</author>
-      <guid>https://example.org/categories/web-development/</guid>
       <description></description>
       
     </item>

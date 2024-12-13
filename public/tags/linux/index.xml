@@ -9,7 +9,17 @@
     <managingEditor>untilspwn@gmail.com (aaidilz)</managingEditor>
     <webMaster>untilspwn@gmail.com (aaidilz)</webMaster>
     <copyright>© 2024 aaidilz</copyright>
-    <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Konfigurasi SendMail Di Linux Server</title>
+      <link>https://example.org/contents/development/configure-sendmail/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      <author>untilspwn@gmail.com (aaidilz)</author>
+      <guid>https://example.org/contents/development/configure-sendmail/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Kontenerisasi App dengan Docker</title>
       <link>https://example.org/contents/development/docker-containerization/</link>

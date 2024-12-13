@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Kontenerisasi App dengan Docker &middot; DilzNotes</title>
-  <meta name="title" content="Kontenerisasi App dengan Docker &middot; DilzNotes" />
+  <title>Konfigurasi SendMail Di Linux Server &middot; DilzNotes</title>
+  <meta name="title" content="Konfigurasi SendMail Di Linux Server &middot; DilzNotes" />
   
   
-  <meta name="keywords" content="Docker, DevOps, Linux, " />
+  <meta name="keywords" content="Mail Server, Linux, Server, " />
   
   
-  <link rel="canonical" href="https://example.org/contents/development/docker-containerization/" />
+  <link rel="canonical" href="https://example.org/contents/development/configure-sendmail/" />
   
   
   
@@ -66,21 +66,21 @@
   
   
   
-  <meta property="og:url" content="https://example.org/contents/development/docker-containerization/">
+  <meta property="og:url" content="https://example.org/contents/development/configure-sendmail/">
   <meta property="og:site_name" content="DilzNotes">
-  <meta property="og:title" content="Kontenerisasi App dengan Docker">
+  <meta property="og:title" content="Konfigurasi SendMail Di Linux Server">
   <meta property="og:locale" content="id">
   <meta property="og:type" content="article">
     <meta property="article:section" content="contents">
-    <meta property="article:published_time" content="2024-11-28T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-11-28T00:00:00+00:00">
-    <meta property="article:tag" content="Docker">
-    <meta property="article:tag" content="DevOps">
+    <meta property="article:published_time" content="2024-12-13T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-12-13T00:00:00+00:00">
+    <meta property="article:tag" content="Mail Server">
     <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="Server">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Kontenerisasi App dengan Docker">
+  <meta name="twitter:title" content="Konfigurasi SendMail Di Linux Server">
 
   
   <script type="application/ld+json">
@@ -88,26 +88,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Contents",
-    "name": "Kontenerisasi App dengan Docker",
-    "headline": "Kontenerisasi App dengan Docker",
+    "name": "Konfigurasi SendMail Di Linux Server",
+    "headline": "Konfigurasi SendMail Di Linux Server",
     
     
     "inLanguage": "id",
-    "url" : "https:\/\/example.org\/contents\/development\/docker-containerization\/",
+    "url" : "https:\/\/example.org\/contents\/development\/configure-sendmail\/",
     "author" : {
       "@type": "Person",
       "name": "aaidilz"
     },
     "copyrightYear": "2024",
-    "dateCreated": "2024-11-28T00:00:00\u002b00:00",
-    "datePublished": "2024-11-28T00:00:00\u002b00:00",
+    "dateCreated": "2024-12-13T00:00:00\u002b00:00",
+    "datePublished": "2024-12-13T00:00:00\u002b00:00",
     
-    "dateModified": "2024-11-28T00:00:00\u002b00:00",
+    "dateModified": "2024-12-13T00:00:00\u002b00:00",
     
-    "keywords": ["Docker","DevOps","Linux"],
+    "keywords": ["Mail Server","Linux","Server"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "425"
+    "wordCount": "351"
   }]
   </script>
 
@@ -130,17 +130,6 @@
 <script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
 
 
-
-  
-  
-  
-  
-  <script
-    defer
-    type="text/javascript"
-    src="/js/mermaid.bundle.3851ec43a1de25baf5fbafd332b3777ca7f3ec9a0be24d8bcbbc4de4f80e7aead0598208ea9f87d38709c02b50e942e4a12dc905626815cd56242e0f1adccdd4.js"
-    integrity="sha512-OFHsQ6HeJbr1&#43;6/TMrN3fKfz7JoL4k2Ly7xN5PgOeurQWYII6p&#43;H04cJwCtQ6ULkoS3JBWJoFc1WJC4PGtzN1A=="
-  ></script>
 
 
 
@@ -499,8 +488,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/contents/development/docker-containerization/"
-      >Kontenerisasi App dengan Docker</a
+      href="/contents/development/configure-sendmail/"
+      >Konfigurasi SendMail Di Linux Server</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -509,7 +498,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Kontenerisasi App dengan Docker
+      Konfigurasi SendMail Di Linux Server
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -560,7 +549,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-11-28T00:00:00&#43;00:00">28 November 2024</time><span class="px-2 text-primary-500">&middot;</span><span>425 kata</span><span class="px-2 text-primary-500">&middot;</span><span title="Waktu membaca">2 menit</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-12-13T00:00:00&#43;00:00">13 Desember 2024</time><span class="px-2 text-primary-500">&middot;</span><span>351 kata</span><span class="px-2 text-primary-500">&middot;</span><span title="Waktu membaca">2 menit</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -573,7 +562,7 @@
       
     
   
-  <span id="views_contents/development/Docker-Containerization/index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span id="views_contents/development/Configure-SendMail/index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
   <span class="inline-block align-text-bottom">
 
   <span class="relative block icon">
@@ -595,7 +584,7 @@
       
     
   
-  <span id="likes_contents/development/Docker-Containerization/index.md"
+  <span id="likes_contents/development/Configure-SendMail/index.md"
     class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400"
     title="likes">loading</span>
   <span class="inline-block align-text-bottom">
@@ -660,10 +649,10 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/development/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/web-development/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Development
+    Web Development
   </span>
 </span>
   </span>
@@ -676,18 +665,10 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/docker/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/mail-server/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Docker
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/devops/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    DevOps
+    Mail Server
   </span>
 </span>
   </span>
@@ -696,6 +677,14 @@
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Linux
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/server/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Server
   </span>
 </span>
   </span>
@@ -822,16 +811,10 @@
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#apa-itu-kontainer">Apa itu Kontainer?</a></li>
-    <li><a href="#bagaimana-docker-bekerja">Bagaimana Docker Bekerja?</a></li>
-    <li><a href="#instalasi-docker">Instalasi Docker</a></li>
-    <li><a href="#studi-kasus">Studi Kasus</a></li>
-    <li><a href="#akses-kontainer">Akses Kontainer</a>
-      <ul>
-        <li><a href="#start-stop-dan-remove-kontainer">Start, Stop, dan Remove Kontainer</a></li>
-        <li><a href="#menghapus-images">Menghapus Images</a></li>
-      </ul>
-    </li>
+    <li><a href="#pengertian-sendmail">Pengertian SendMail</a></li>
+    <li><a href="#instalasi-sendmail">Instalasi SendMail</a></li>
+    <li><a href="#testing-sendmail">Testing SendMail</a></li>
+    <li><a href="#kesimpulan">Kesimpulan</a></li>
   </ul>
 </nav>
   </div>
@@ -845,16 +828,10 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#apa-itu-kontainer">Apa itu Kontainer?</a></li>
-    <li><a href="#bagaimana-docker-bekerja">Bagaimana Docker Bekerja?</a></li>
-    <li><a href="#instalasi-docker">Instalasi Docker</a></li>
-    <li><a href="#studi-kasus">Studi Kasus</a></li>
-    <li><a href="#akses-kontainer">Akses Kontainer</a>
-      <ul>
-        <li><a href="#start-stop-dan-remove-kontainer">Start, Stop, dan Remove Kontainer</a></li>
-        <li><a href="#menghapus-images">Menghapus Images</a></li>
-      </ul>
-    </li>
+    <li><a href="#pengertian-sendmail">Pengertian SendMail</a></li>
+    <li><a href="#instalasi-sendmail">Instalasi SendMail</a></li>
+    <li><a href="#testing-sendmail">Testing SendMail</a></li>
+    <li><a href="#kesimpulan">Kesimpulan</a></li>
   </ul>
 </nav>
   </div>
@@ -938,113 +915,89 @@
         <div class="article-content max-w-prose mb-20">
           
 
-<h2 class="relative group">Apa itu Kontainer? 
-    <div id="apa-itu-kontainer" class="anchor"></div>
+<h2 class="relative group">Pengertian SendMail 
+    <div id="pengertian-sendmail" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#apa-itu-kontainer" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#pengertian-sendmail" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>Kontainer adalah unit perangkat lunak yang memungkinkan pengembang untuk mengemas aplikasi dan semua dependensinya ke dalam satu paket. Kontainer memungkinkan aplikasi untuk berjalan di lingkungan yang terisolasi. Kontainer juga memungkinkan pengembang untuk memastikan aplikasi berjalan dengan benar di lingkungan yang berbeda.</p>
+<p>SendMail adalah sebuah program yang digunakan untuk mengirimkan email dari server ke server lainnya menggunakan protokol <strong>SMTP</strong> <em>(Simple Mail Transfer Protocol)</em>.</p>
 
 
-<h2 class="relative group">Bagaimana Docker Bekerja? 
-    <div id="bagaimana-docker-bekerja" class="anchor"></div>
+<h2 class="relative group">Instalasi SendMail 
+    <div id="instalasi-sendmail" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#bagaimana-docker-bekerja" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#instalasi-sendmail" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<div class="mermaid" align="center">
+<p>Dalam environment ini kita akan menggunakan Ubuntu sebagai sistem operasi. Untuk menginstall <code>SendMail</code>, kita dapat menggunakan perintah berikut:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install sendmail sendmail-bin mailutils -y
+</span></span></code></pre></div><p>Setelah proses instalasi selesai, kita dapat memulai konfigurasi <strong>SendMail</strong> dengan mengedit file konfigurasi <code>sendmail.mc</code> yang terletak di <code>/etc/mail/sendmail.mc</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nano /etc/mail/sendmail.mc
+</span></span></code></pre></div><p>Tambahkan baris berikut di dalam file konfigurasi <code>sendmail.mc</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">FEATURE<span class="o">(</span><span class="sb">`</span>relay_hosts_only<span class="s1">&#39;)dnl
+</span></span></span><span class="line"><span class="cl"><span class="s1">FEATURE(`access_db&#39;</span><span class="o">)</span>dnl
+</span></span></code></pre></div><p>dan juga cari baris berikut:
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /contents/development/configure-sendmail/image_hu4373094406815174228.png 330w,
+        /contents/development/configure-sendmail/image_hu6601249183541168863.png 660w,
+        /contents/development/configure-sendmail/image_hu8049405554608850429.png 1024w,
+        /contents/development/configure-sendmail/image_hu18326772913078871830.png 2x"
+        src="/contents/development/configure-sendmail/image_hu6601249183541168863.png"
+        alt="alt text"
+      />
+      
+    </figure>
+</p>
+<blockquote>
+<p>DAEMON_OPTIONS(`Family=inet,  Name=MTA-v4, Port=smtp, Addr=0.0.0.0&rsquo;)dnl</p>
+</blockquote>
+
   
 
-sequenceDiagram
-    participant User
-    participant Docker
-    User->>Docker: Build image
-    Docker->>Docker: Build container
-    Docker->>User: Run container
-    User->>Docker: Stop container
-    Docker->>Docker: Remove container
-    Docker->>User: Done
 
 
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    >Ubah baris <code>Addr</code> menjadi <code>0.0.0.0</code> agar server dapat menerima email dari luar.</span>
 </div>
 
-<p>Pada diagram di atas, kita dapat melihat bagaimana Docker bekerja. Pengguna membangun dengan perintah <code>docker build</code>. kemudian digunakan untuk membuat kontainer dengan perintah <code>docker run</code>. Ketika kontainer selesai berjalan, pengguna dapat menghentikan kontainer dengan perintah <code>docker stop</code> dan menghapusnya dengan perintah <code>docker rm</code>.</p>
-
-
-<h2 class="relative group">Instalasi Docker 
-    <div id="instalasi-docker" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#instalasi-docker" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<p>Untuk menginstalasi Docker, Anda dapat mengikuti langkah-langkah berikut:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Debian/Ubuntu</span>
-</span></span><span class="line"><span class="cl">$ sudo apt update <span class="o">&amp;&amp;</span> sudo apt install docker.io
-</span></span></code></pre></div>
-
-<h2 class="relative group">Studi Kasus 
-    <div id="studi-kasus" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#studi-kasus" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<p>Misalnya, pada kasus ini kita akan membuat kontainer dalam konteks CTF yang rentan terhadap <code>Shellshock</code> CVE-2014-6271.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dockerfile" data-lang="dockerfile"><span class="line"><span class="cl"><span class="c">#file dockerfile</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="k">FROM</span><span class="s"> ubuntu:14.04</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="c"># Install Bash yang rentan CVE-2014-6271</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="k">RUN</span> apt-get update <span class="o">&amp;&amp;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>    apt-get install -y <span class="nv">bash</span><span class="o">=</span>4.3-7ubuntu1 <span class="o">&amp;&amp;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>    apt-get clean<span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="c"># Tambahkan CGI sederhana</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="k">RUN</span> mkdir -p /var/www/cgi-bin<span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="k">COPY</span> test.sh /var/www/cgi-bin/test.sh<span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="k">RUN</span> chmod +x /var/www/cgi-bin/test.sh<span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="c"># Install Apache2 dan enable CGI</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="k">RUN</span> apt-get install -y apache2 <span class="o">&amp;&amp;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>    a2enmod cgi<span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="c"># Konfigurasi Apache</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="k">RUN</span> <span class="nb">echo</span> <span class="s2">&#34;ScriptAlias /cgi-bin/ /var/www/cgi-bin/&#34;</span> &gt;&gt; /etc/apache2/sites-enabled/000-default.conf<span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="c"># Expose port untuk akses</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="k">EXPOSE</span><span class="s"> 80</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="c"># Jalankan Apache di foreground</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="k">CMD</span> <span class="p">[</span><span class="s2">&#34;apachectl&#34;</span><span class="p">,</span> <span class="s2">&#34;-D&#34;</span><span class="p">,</span> <span class="s2">&#34;FOREGROUND&#34;</span><span class="p">]</span><span class="err">
-</span></span></span></code></pre></div><ol>
-<li><code>FROM</code> mendefinisikan image dasar yang akan digunakan untuk membangun image baru.</li>
-<li><code>RUN</code> menjalankan perintah di dalam kontainer.</li>
-<li><code>COPY</code> menyalin file dari host ke dalam kontainer.</li>
-<li><code>EXPOSE</code> mengekspos port yang digunakan oleh kontainer.</li>
-<li><code>CMD</code> menjalankan perintah ketika kontainer dimulai.</li>
-</ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#file test.sh</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#!/bin/bash</span>
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Hello World&#34;</span>
-</span></span></code></pre></div><p>Setelah membuat Dockerfile di atas, kita dapat membangunnya dengan perintah</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ docker build -t shellshock .
-</span></span></code></pre></div><p>Langkah selanjutnya adalah menjalankan kontainer dengan perintah</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ docker run -d -p 8080:80 shellshock
+<p>Setelah itu tambahkan baris kode di file <code>/etc/mail/access</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Connect:192.168.100 RELAY
 </span></span></code></pre></div>
   
 
@@ -1073,57 +1026,96 @@ sequenceDiagram
   <span
     
       class="dark:text-neutral-300"
-    ><strong>Catatan</strong>: Untuk pengujian, pastikan Anda menjalankan kontainer ini di lingkungan yang terisolasi karena rentan terhadap serangan <code>Shellshock</code>.</span>
+    >Jika IP server berbeda, asumsikan ip server adalah <code>192.168.100.99</code> maka ganti <code>192.168.100</code> dengan IP server yang digunakan.</span>
 </div>
 
-<p>dan kita dapat mengaksesnya melalui <code>http://localhost:8080/cgi-bin/test.sh</code>.</p>
+<p>Dan jalankan perintah berikut:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo makemap <span class="nb">hash</span> /etc/mail/access.db &lt; /etc/mail/access
+</span></span></code></pre></div><p>Setelah konfigurasi selesai, kita dapat melakukan langkah berikut:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo sendmailconfig
+</span></span></code></pre></div><blockquote>
+<p>Ketika ada pertanyaan, tekan <code>Y</code> untuk melanjutkan.</p>
+</blockquote>
 
 
-<h2 class="relative group">Akses Kontainer 
-    <div id="akses-kontainer" class="anchor"></div>
+<h2 class="relative group">Testing SendMail 
+    <div id="testing-sendmail" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#akses-kontainer" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#testing-sendmail" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>Untuk mengakses kontainer, kita dapat menggunakan perintah <code>docker exec</code>. Misalnya, untuk masuk ke dalam kontainer, kita dapat menggunakan perintah berikut:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ docker <span class="nb">exec</span> -it &lt;container_id&gt; /bin/bash
+<p>Sebelum melakukan testing, pastikan hostname server sudah diatur dengan benar. Untuk melakukan testing, kita dapat menggunakan perintah berikut:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hostnamectl <span class="c1">#check hostname</span>
+</span></span><span class="line"><span class="cl">sudo hostnamectl set-hostname mail.local <span class="c1">#ubah nama hostname (Bebas)</span>
+</span></span></code></pre></div><p>Kita akan menggunakan host <code>mail.local</code> sebagai contoh. Setelah itu, kita dapat melakukan testing dengan perintah berikut:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nano /etc/hosts
+</span></span></code></pre></div><p>Tambahkan baris berikut:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">192.168.100.99 mail.local
+</span></span></code></pre></div><blockquote>
+<p>Ganti <code>192.168.1.X</code> dengan IP server yang digunakan. Kalau Kasus ini IP server adalah <code>192.168.100.99</code>
+check IP server dengan perintah <code>ip a</code></p>
+</blockquote>
+<p>Beres! sekarang kita dapat melakukan testing dengan perintah berikut:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl restart sendmail
+</span></span><span class="line"><span class="cl">sudo systemctl <span class="nb">enable</span> sendmail
+</span></span><span class="line"><span class="cl">sudo systemctl start sendmail
+</span></span></code></pre></div><p>Konfirmasi Hostname via <code>nslookup</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nslookup mail.local 
+</span></span></code></pre></div>
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    >Test koneksi PC dengan server <code>telnet 192.168.100.99 25</code></span>
+</div>
+
+<p>Testing sendmail ke diri sendiri dengan perintah berikut:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Test email&#34;</span> <span class="p">|</span> mail -s <span class="s2">&#34;Subject: Test Email&#34;</span> ubuntu@mail.local
+</span></span></code></pre></div><p>Check hasil pengiriman email di <code>/var/mail/</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> /var/mail/
+</span></span><span class="line"><span class="cl">cat <span class="o">(</span>nama user yang ingin dicek<span class="o">)</span> 
+</span></span></code></pre></div><p>Jika ingin melihat proses pengiriman email (DEBUG), kita dapat menggunakan perintah berikut:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo tail -f /var/log/mail.log
 </span></span></code></pre></div>
 
-<h3 class="relative group">Start, Stop, dan Remove Kontainer 
-    <div id="start-stop-dan-remove-kontainer" class="anchor"></div>
+<h2 class="relative group">Kesimpulan 
+    <div id="kesimpulan" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#start-stop-dan-remove-kontainer" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#kesimpulan" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
-<p>Untuk memulai kontainer, gunakan perintah</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ docker start &lt;container_id&gt;
-</span></span></code></pre></div><p>Untuk menghentikan kontainer, gunakan perintah</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ docker stop &lt;container_id&gt;
-</span></span></code></pre></div><p>Untuk menghapus kontainer, gunakan perintah</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ docker rm &lt;container_id&gt;
-</span></span></code></pre></div>
-
-<h3 class="relative group">Menghapus Images 
-    <div id="menghapus-images" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#menghapus-images" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>Untuk menghapus image, gunakan perintah</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ docker rmi &lt;image_id&gt;
-</span></span></code></pre></div><p>Dengan demikian, kita telah melihat bagaimana kontainerisasi bekerja dengan Docker dan bagaimana kita dapat membuat kontainer tertentu untuk keperluan pengujian.</p>
+</h2>
+<p>Dengan demikian, kita telah berhasil mengkonfigurasi <strong>SendMail</strong> pada server Linux. Dengan konfigurasi ini, server dapat mengirimkan email ke server lainnya. Mungkin ada beberapa konfigurasi tambahan yang perlu dilakukan tergantung kebutuhan server.</p>
 
           
           
@@ -1141,7 +1133,7 @@ sequenceDiagram
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://example.org/contents/development/docker-containerization/&amp;title=Kontenerisasi%20App%20dengan%20Docker"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://example.org/contents/development/configure-sendmail/&amp;title=Konfigurasi%20SendMail%20Di%20Linux%20Server"
       title="Bagikan ke LinkedIn"
       aria-label="Bagikan ke LinkedIn"
       >
@@ -1160,7 +1152,7 @@ sequenceDiagram
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://twitter.com/intent/tweet/?url=https://example.org/contents/development/docker-containerization/&amp;text=Kontenerisasi%20App%20dengan%20Docker"
+      href="https://twitter.com/intent/tweet/?url=https://example.org/contents/development/configure-sendmail/&amp;text=Konfigurasi%20SendMail%20Di%20Linux%20Server"
       title="Tweet di Twitter"
       aria-label="Tweet di Twitter"
       >
@@ -1178,7 +1170,7 @@ sequenceDiagram
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://bsky.app/intent/compose?text=Kontenerisasi%20App%20dengan%20Docker&#43;https://example.org/contents/development/docker-containerization/"
+      href="https://bsky.app/intent/compose?text=Konfigurasi%20SendMail%20Di%20Linux%20Server&#43;https://example.org/contents/development/configure-sendmail/"
       title=""
       aria-label=""
       >
@@ -1196,7 +1188,7 @@ sequenceDiagram
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://s2f.kytta.dev/?text=Kontenerisasi%20App%20dengan%20Docker%20https://example.org/contents/development/docker-containerization/"
+      href="https://s2f.kytta.dev/?text=Konfigurasi%20SendMail%20Di%20Linux%20Server%20https://example.org/contents/development/configure-sendmail/"
       title=""
       aria-label=""
       >
@@ -1215,7 +1207,7 @@ sequenceDiagram
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://reddit.com/submit/?url=https://example.org/contents/development/docker-containerization/&amp;resubmit=true&amp;title=Kontenerisasi%20App%20dengan%20Docker"
+      href="https://reddit.com/submit/?url=https://example.org/contents/development/configure-sendmail/&amp;resubmit=true&amp;title=Konfigurasi%20SendMail%20Di%20Linux%20Server"
       title="Kirim ke Reddit"
       aria-label="Kirim ke Reddit"
       >
@@ -1234,7 +1226,7 @@ sequenceDiagram
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://pinterest.com/pin/create/bookmarklet/?url=https://example.org/contents/development/docker-containerization/&amp;description=Kontenerisasi%20App%20dengan%20Docker"
+      href="https://pinterest.com/pin/create/bookmarklet/?url=https://example.org/contents/development/configure-sendmail/&amp;description=Konfigurasi%20SendMail%20Di%20Linux%20Server"
       title="Pin di Pinterest"
       aria-label="Pin di Pinterest"
       >
@@ -1253,7 +1245,7 @@ sequenceDiagram
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.facebook.com/sharer/sharer.php?u=https://example.org/contents/development/docker-containerization/&amp;quote=Kontenerisasi%20App%20dengan%20Docker"
+      href="https://www.facebook.com/sharer/sharer.php?u=https://example.org/contents/development/configure-sendmail/&amp;quote=Konfigurasi%20SendMail%20Di%20Linux%20Server"
       title="Bagikan ke Facebook"
       aria-label="Bagikan ke Facebook"
       >
@@ -1272,7 +1264,7 @@ sequenceDiagram
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="mailto:?body=https://example.org/contents/development/docker-containerization/&amp;subject=Kontenerisasi%20App%20dengan%20Docker"
+      href="mailto:?body=https://example.org/contents/development/configure-sendmail/&amp;subject=Konfigurasi%20SendMail%20Di%20Linux%20Server"
       title="Kirim lewat surel"
       aria-label="Kirim lewat surel"
       >
@@ -1291,7 +1283,7 @@ sequenceDiagram
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://api.whatsapp.com/send?text=https://example.org/contents/development/docker-containerization/&amp;resubmit=true&amp;title=Kontenerisasi%20App%20dengan%20Docker"
+      href="https://api.whatsapp.com/send?text=https://example.org/contents/development/configure-sendmail/&amp;resubmit=true&amp;title=Konfigurasi%20SendMail%20Di%20Linux%20Server"
       title=""
       aria-label=""
       >
@@ -1310,7 +1302,7 @@ sequenceDiagram
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://t.me/share/url?url=https://example.org/contents/development/docker-containerization/&amp;resubmit=true&amp;title=Kontenerisasi%20App%20dengan%20Docker"
+      href="https://t.me/share/url?url=https://example.org/contents/development/configure-sendmail/&amp;resubmit=true&amp;title=Konfigurasi%20SendMail%20Di%20Linux%20Server"
       title=""
       aria-label=""
       >
@@ -1333,394 +1325,6 @@ sequenceDiagram
 
 <h2 class="mt-8 text-2xl font-extrabold mb-10">Terkait</h2>
 <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-  
-  
-
-  <a href="/contents/development/linux-symlink/" class="min-w-full">
-    
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/contents/development/linux-symlink/">Linux Symbolic Link</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-11-15T00:00:00&#43;00:00">15 November 2024</time><span class="px-2 text-primary-500">&middot;</span><span>161 kata</span><span class="px-2 text-primary-500">&middot;</span><span title="Waktu membaca">1 menit</span><span class="px-2 text-primary-500">&middot;</span><span>
-  
-  
-    
-    
-      
-      
-        
-        
-      
-      
-    
-  
-  <span id="views_contents/development/Linux-Symlink/index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
-  <span class="inline-block align-text-bottom">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg>
-  </span>
-
-</span>
-</span><span class="px-2 text-primary-500">&middot;</span><span>
-  
-  
-    
-    
-      
-      
-        
-        
-      
-      
-    
-  
-  <span id="likes_contents/development/Linux-Symlink/index.md"
-    class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400"
-    title="likes">loading</span>
-  <span class="inline-block align-text-bottom">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-<path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
-  </span>
-
-</span>
-</span>
-  
-
-  
-  
-</div>
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/development/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Development
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/devops/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    DevOps
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/linux/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Linux
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/system/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    System
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-
-  
-  
-
-  <a href="/contents/development/linux-privilage/" class="min-w-full">
-    
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/contents/development/linux-privilage/">Linux Privilage</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-10-27T00:00:00&#43;00:00">27 Oktober 2024</time><span class="px-2 text-primary-500">&middot;</span><span>375 kata</span><span class="px-2 text-primary-500">&middot;</span><span title="Waktu membaca">2 menit</span><span class="px-2 text-primary-500">&middot;</span><span>
-  
-  
-    
-    
-      
-      
-        
-        
-      
-      
-    
-  
-  <span id="views_contents/development/Linux-Privilage/index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
-  <span class="inline-block align-text-bottom">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg>
-  </span>
-
-</span>
-</span><span class="px-2 text-primary-500">&middot;</span><span>
-  
-  
-    
-    
-      
-      
-        
-        
-      
-      
-    
-  
-  <span id="likes_contents/development/Linux-Privilage/index.md"
-    class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400"
-    title="likes">loading</span>
-  <span class="inline-block align-text-bottom">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-<path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
-  </span>
-
-</span>
-</span>
-  
-
-  
-  
-</div>
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/development/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Development
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/devops/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    DevOps
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/linux/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Linux
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/system/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    System
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-
   
   
 
@@ -1908,6 +1512,402 @@ sequenceDiagram
   </a>
 
   
+  
+
+  <a href="/contents/development/configure-phpmyadmin/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/contents/development/configure-phpmyadmin/">Configure PHPMyAdmin on Ubuntu</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-08-24T00:00:00&#43;00:00">24 Agustus 2024</time><span class="px-2 text-primary-500">&middot;</span><span>139 kata</span><span class="px-2 text-primary-500">&middot;</span><span title="Waktu membaca">1 menit</span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="views_contents/development/Configure-PHPMyAdmin/index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg>
+  </span>
+
+</span>
+</span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="likes_contents/development/Configure-PHPMyAdmin/index.md"
+    class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400"
+    title="likes">loading</span>
+  <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+  </span>
+
+</span>
+</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/web-development/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Web Development
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/php/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    PHP
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/mysql/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    MySQL
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/phpmyadmin/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    PHPMyAdmin
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/linux/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Linux
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/contents/development/docker-containerization/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/contents/development/docker-containerization/">Kontenerisasi App dengan Docker</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-11-28T00:00:00&#43;00:00">28 November 2024</time><span class="px-2 text-primary-500">&middot;</span><span>425 kata</span><span class="px-2 text-primary-500">&middot;</span><span title="Waktu membaca">2 menit</span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="views_contents/development/Docker-Containerization/index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg>
+  </span>
+
+</span>
+</span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="likes_contents/development/Docker-Containerization/index.md"
+    class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400"
+    title="likes">loading</span>
+  <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+  </span>
+
+</span>
+</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/development/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Development
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/docker/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Docker
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/devops/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    DevOps
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/linux/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Linux
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
 </section>
 
   
@@ -1921,8 +1921,8 @@ sequenceDiagram
           
         
       <script>
-        var oid = "views_contents\/development\/Docker-Containerization\/index.md"
-        var oid_likes = "likes_contents\/development\/Docker-Containerization\/index.md"
+        var oid = "views_contents\/development\/Configure-SendMail\/index.md"
+        var oid_likes = "likes_contents\/development\/Configure-SendMail\/index.md"
       </script>
       
       
@@ -1942,7 +1942,7 @@ sequenceDiagram
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/contents/development/linux-symlink/">
+            <a class="flex group mr-3" href="/contents/development/docker-containerization/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -1954,11 +1954,11 @@ sequenceDiagram
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Linux Symbolic Link</span
+                  >Kontenerisasi App dengan Docker</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-11-15T00:00:00&#43;00:00">15 November 2024</time>
+                    <time datetime="2024-11-28T00:00:00&#43;00:00">28 November 2024</time>
                   
                 </span>
               </span>
@@ -1966,28 +1966,6 @@ sequenceDiagram
           
         </span>
         <span>
-          
-            <a class="flex text-right group ml-3" href="/contents/development/configure-sendmail/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Konfigurasi SendMail Di Linux Server</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2024-12-13T00:00:00&#43;00:00">13 Desember 2024</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
           
         </span>
       </div>
